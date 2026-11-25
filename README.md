@@ -20,7 +20,10 @@ Se estudian cuatro contaminantes: NO₂, PM₁₀, PM₂,₅ y O₃, junto con i
 
 El código está organizado según los apartados del capítulo 6 de la memoria del TFM:
 
-- 01_comprension_datos: exploración de los conjuntos de datos.
+- 01_comprension_datos:
+Esta carpeta contiene los notebooks utilizados para la exploración y caracterización inicial de los conjuntos de datos del proyecto.
+Corresponde al apartado 6.2 de la memoria del TFM.
+
 - 02_preparacion_datos: limpieza y transformación.
 - 03_integracion_gold: construcción del modelo dimensional.
 - 04_analisis_calidad_aire: análisis estadísticos, temporales y espaciales.
