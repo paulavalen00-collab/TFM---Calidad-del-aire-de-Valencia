@@ -16,18 +16,21 @@ Se estudian cuatro contaminantes: NO₂, PM₁₀, PM₂,₅ y O₃, junto con i
 - SQL
 - Power BI
 
+
 ## Organización del repositorio
 
-El código está organizado según los apartados del capítulo 6 de la memoria del TFM:
+Los notebooks están organizados siguiendo los apartados del capítulo 6 de la memoria del TFM.
 
-- 01_comprension_datos:
-Esta carpeta contiene los notebooks utilizados para la exploración y caracterización inicial de los conjuntos de datos del proyecto.
-Corresponde al apartado 6.2 de la memoria del TFM.
+- **01_comprension_datos:** exploración y caracterización inicial de los conjuntos de datos, incluyendo su estructura, cobertura y calidad.
 
-- 02_preparacion_datos: limpieza y transformación.
-- 03_integracion_gold: construcción del modelo dimensional.
-- 04_analisis_calidad_aire: análisis estadísticos, temporales y espaciales.
-- 05_modelos_predictivos: desarrollo de los modelos.
-- 06_evaluacion_modelos: evaluación y comparación.
-- 07_visualizacion_powerbi: archivos relacionados con el dashboard.
+- **02_preparacion_datos:** limpieza, transformación y estandarización de los datos para su posterior análisis e integración.
+
+- **03_integracion_gold:** construcción y carga de las tablas de hechos y dimensiones de la capa Gold mediante PySpark en Google Cloud.
+
+- **04_analisis_comportamiento:** análisis de la evolución de la calidad del aire, su relación con el tráfico, la meteorología y el ruido, y sus patrones temporales y espaciales.
+
+- **05_modelos:** desarrollo, validación y evaluación de modelos predictivos de calidad del aire y tráfico, incluyendo las estimaciones hasta 2030 y a 24 horas.
+
+- **06_visualizacion_powerbi:** desarrollo del panel interactivo de Power BI para explorar los indicadores ambientales y visualizar los resultados predictivos.
+
     
